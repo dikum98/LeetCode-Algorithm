@@ -1,6 +1,6 @@
 function longestCommonPrefix(strs) {
   let prefixx = '';
-  if (strs.length === 1) return strs[0];
+  // if (strs.length === 1) return strs[0];
   if (strs.includes('')) return '';
 
   let i = 0;
